@@ -1,0 +1,61 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.log
+*.pot
+*.pyc
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# pytest
+.cache/
+
+# coverage reports
+.coverage
+*.cover
+
+# mypy
+.mypy_cache/
+
+# flake8
+.flake8
+
+# pylint
+pylint-report.txt
+pylint-json-report.json
+
+# dist and build directories
+build/
+dist/
+*.egg-info/
+
+# C extensions
+*.so
+*.dylib
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# local properties
+.env
