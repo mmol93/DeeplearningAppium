@@ -86,7 +86,7 @@ class TestAppium(unittest.TestCase):
         except Exception as e:
             return False
 
-    def scroll_screen(self):
+    def updown_scroll_screen(self):
         """scroll the display using TouchAction"""
         # get current display size
         screen_size = self.driver.get_window_size()
@@ -125,7 +125,7 @@ class TestAppium(unittest.TestCase):
                     return element
             except Exception as e:
                 # if it fails to find element, scroll again.
-                self.scroll_screen()
+                self.updown_scroll_screen()
             attempts += 1
         raise Exception(f"Unable to find the element with identifier {view_id or view_xpath} after {max_attempts} attempts.")
 
